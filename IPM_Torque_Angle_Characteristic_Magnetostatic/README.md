@@ -10,8 +10,20 @@ When the rotor position changes, the 1/16th rotor geometry changes accordingly. 
 
 With this setup, we can get the torque-angle characteristic (a 45deg window is sufficient as it is an 8-pole motor), as shown below.
 
+![](./images/Torque_angle_characteristic.png)
 
+The flux line plots at three different rotor positions are shown below (0deg, 11deg, and 22deg).
+
+![](./images/Fluxline_pole_angle_0.png)
+![](./images/Fluxline_pole_angle_11deg.png)
+![](./images/Fluxline_pole_angle_22deg.png)
+
+The current excitations assigned to the phase windings are balanced 3-phase and a phase angle of -30deg is used to position the axis of magnetomotive force created by the stator winding at the middle line of the 1/8th sector. The aixs of the magnetomotive force from the stator winding can be easily visualized by setting the rotor to a round one.
+
+![](./images/Fluxline_RoundRotor.png)
 
 ## Magnetic Transient Analysis with a Sweep of Winding Current Phase Angles
+
+In this approach, the rotor rotation is synchronized with the rotation of the magnetomotive force created by the stator winding. A parametric sweep 
 
 ## Magnetic Transient Analysis with a Sweep of Rotor Positions
